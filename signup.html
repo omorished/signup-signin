@@ -1,0 +1,59 @@
+<!--SIGNUP PAGE-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <meta charset="utf-8">
+    <title>SignUp</title>
+    
+    <link href="signup.css" rel="stylesheet" type="text/css">
+
+    </head>
+    
+<body>
+
+    <h1>SignUp Now</h1>
+    
+    <p id="error-message"></p>
+        
+    <form name="signup-form">
+        <input type="text" id="first-name-txtfield" class="textfield" placeholder="first Name">
+        <input type="text" id="last-name-txtfield" class="textfield" placeholder="last Name">
+        <br>
+        <input type="text" id="email-txtfield" class="textfield" placeholder="email">
+        <br>
+        <input type="password" id="password-txtfield" class="textfield" placeholder="password">
+        <br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">female</label>
+        
+        <p id="birthday">brithday</p>
+        <select id="days-dropdown">
+            <option value="">Day</option>
+            <!--the options will be created in javascript file--> 
+        </select>
+        <select id="months-dropdown">
+            <option value="">Month</option>
+            <!--the options will be created in javascript file--> 
+        </select>
+        <select id="years-dropdown">
+            <option value="">Year</option>
+            <!--the options will be created in javascript file--> 
+        </select>
+        
+        <br>
+
+    </form>
+            <button id="submit-btn" onclick="createUser()">submit</button>
+            <br>
+            <p id="have-an-account">already have an account? <a href="signin.html?">sign in</a></p>
+        
+    <script src="signup.js"></script>
+    <script src="server-side.js"></script>
+    </body>
+
+</html>
