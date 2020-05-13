@@ -1,0 +1,38 @@
+*{
+    font-family : sans-serif;
+}
+
+#user-info-h1 {
+    padding-top: 30px;
+    margin : 5px;
+    margin-bottom: 40px;
+    
+}
+
+p {
+    
+    height: 30px;
+    width: 300px;
+    padding-top: 6px;
+    padding-left: 6px;
+    font-size: 20px;
+    margin-left: 5px;
+    border-color: gray;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    
+    
+}
+
+#signoutBtn {
+    width : 120px;
+    height : 35px;
+    margin-top: 40px;
+    margin-left: 105px;
+    font-size: 20px;
+    color: white;
+    background-color: orangered;
+    border-radius: 10px;
+    
+}
